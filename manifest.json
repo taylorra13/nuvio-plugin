@@ -1,20 +1,63 @@
 {
   "name": "Taylor's Plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scrapers": [
     {
-      "id": "anime-sama",
-      "name": "🐍 Anime-Sama",
-      "description": "Watch AnimeSama France",
-      "version": "1.1.27",
-      "author": "Gowaru",
+      "id": "4khdhub",
+      "name": "4KHDHub",
+      "description": "4KHDHub direct links",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/anime-sama.js",
+      "filename": "providers/4khdhub.js",
       "enabled": true,
       "hasSettings": true,
-      "formats": ["mp4", "mkv"],
-      "logo": "https://i.postimg.cc/tgYt2pYG/animesama.png",
-      "contentLanguage": ["fr"]
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "animekai",
+      "name": "AnimeKai",
+      "description": "AnimeKai TV episodes via AnimeKai servers",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/animekai.js",
+      "enabled": true,
+      "hasSettings": true,
+      "limited": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/MKJd7fy7/animekai.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "anikototv",
+      "name": "AnikotoTV",
+      "description": "Anime provider for AnikotoTV.to via Mapper API + Native Extractor",
+      "version": "1.0.5",
+      "author": "piratezoro9",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "providers/anikototv.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4"],
+      "logo": "https://i.postimg.cc/JhL3HBR4/anikototv.png",
+      "contentLanguage": ["en", "ja"]
+    },
+    {
+      "id": "anidb",
+      "name": "AniDB",
+      "description": "Subbed and dubbed anime from AniDB.",
+      "version": "1.0.0",
+      "author": "Nuvio Team (ChillPill)",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/anidb.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/rmMzZ45K/anidb.png",
+      "contentLanguage": ["en", "ja", "ko"]
     },
     {
       "id": "castle",
@@ -99,6 +142,21 @@
       "formats": ["mp4", "m3u8"],
       "logo": "https://i.postimg.cc/2yLnTzPP/kisskh.jpg",
       "contentLanguage": ["ko", "ch", "ja", "th"]
+    },
+    {
+      "id": "videasy",
+      "name": "VidEasy",
+      "description": "Videasy streaming with encrypted TMDB ID support for movies and TV shows",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/videasy.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/7LHYMtVV/videasy.png",
+      "contentLanguage": ["en"]
     }
+
   ]
 }
