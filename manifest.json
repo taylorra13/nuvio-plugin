@@ -60,20 +60,6 @@
       "contentLanguage": ["en", "ja", "ko"]
     },
     {
-      "id": "castle",
-      "name": "🏰 Castle",
-      "description": "Multi Lang provider",
-      "version": "2.0.0",
-      "author": "Nuvio Team",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "providers/castle.js",
-      "enabled": true,
-      "hasSettings": true,
-      "formats": ["mp4", "m3u8"],
-      "logo": "https://i.postimg.cc/0NvGzFyK/castle.png",
-      "contentLanguage": ["en"]
-    },
-    {
       "id": "Cineby",
       "name": "Cineby",
       "description": "Multi-server movie and TV streaming — 4K/1080p/720p from Videasy network without subtitles",
